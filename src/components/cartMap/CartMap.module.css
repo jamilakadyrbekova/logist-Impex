@@ -1,0 +1,16 @@
+.box{
+    padding: 5%;
+}
+.map{
+    margin: 0 auto;
+    width: calc(100vw - 40%);
+    height: 70vh;
+    margin-top: 50px;
+}
+.our__offis{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 25px;
+    color: #004E9C;
+
+}

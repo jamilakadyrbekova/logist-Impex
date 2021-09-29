@@ -1,0 +1,30 @@
+.boxs{
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin: 60px;
+}
+.name{
+    margin-top: 25px;
+}
+.transport{
+    width: 250px;
+    height: 180px;
+}
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    color: #1b1b1c;
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 770px) {
+    .boxs{
+        flex-wrap: wrap;
+    }
+}

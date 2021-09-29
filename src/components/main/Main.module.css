@@ -1,0 +1,39 @@
+.container{
+    position: relative;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+    background: rgba(128, 128, 128, 0.61);
+    padding: 15px;
+    border-radius: 10px;
+}
+.title{
+    font-weight: 600;
+    font-size: 40px;
+    color: blue;
+}
+.text{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(63, 63, 66);
+}
+@media (max-width: 620px){
+    .wrapper{
+        width: 300px;
+        height: auto;
+    }
+    .title{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .text{
+        font-weight: 500;
+        font-size: 15px;
+    }
+}

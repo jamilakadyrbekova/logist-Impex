@@ -1,0 +1,37 @@
+.container{
+    padding: 45px 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    background: #00316c;
+    flex-wrap: wrap;
+}
+.img{
+    width: 150px;
+    height: auto;
+}
+.text{
+    color: #7d7d7d;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
+.titles{
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    padding-top: 35px;
+}
+.list{
+    list-style: none;
+    color:#ffffff;
+    padding-top: 15px;
+}
+.link a {
+    text-decoration: none;
+}

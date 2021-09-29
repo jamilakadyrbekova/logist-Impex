@@ -1,0 +1,24 @@
+.slider{
+    background: #ffff;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    color: #1b1b1c;
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 770px) {
+   
+}

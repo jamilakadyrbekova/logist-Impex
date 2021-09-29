@@ -1,0 +1,36 @@
+.slider{
+    margin: 5%;
+    background: #00316c;
+    padding: 5%;
+}
+.slider img{
+    width: 400px;
+    height: 300px;
+}
+.name{
+    display: flex;
+}
+.text{
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 15px;
+
+}
+
+@media (max-width: 980px){
+    .name{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 520px){
+    .slider img{
+        width: 100%;
+        height: auto;
+    }
+    .text{
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
